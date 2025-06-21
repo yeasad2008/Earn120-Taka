@@ -89,7 +89,7 @@
   <button id="serviceButton">সার্ভিস নিন</button>
   <div id="notification"></div>
   
-<div id="wait-instruction">প্রতিটি টাস্কে ৪ সেকেন্ড অপেক্ষা করতে হবে, না হলে টাস্ক কমপ্লিট হবে না এবং আপনি ১০ টাকা পাবেন না।</div>
+<div id="wait-instruction">এডসে ক্লিক করার পর ৩ সেকেন্ড অপেক্ষা না করলে টাকা পাবেন না </div>
 
 
   <div class="ads-container" id="adsContainer"></div>
@@ -105,10 +105,10 @@
 
     const watchedAds = new Set();
     const adLinks = [
-      "https://example.com/ad1", "https://example.com/ad2", "https://example.com/ad3",
-      "https://example.com/ad4", "https://example.com/ad5", "https://example.com/ad6",
-      "https://example.com/ad7", "https://example.com/ad8", "https://example.com/ad9",
-      "https://example.com/ad10", "https://example.com/ad11", "https://example.com/ad12"
+      "https://otieu.com/4/9388402", "https://otieu.com/4/9464454", "https://otieu.com/4/9467421",
+      "https://otieu.com/4/9403309", "https://otieu.com/4/9459786", "https://otieu.com/4/9460128",
+      "https://otieu.com/4/9399296", "https://otieu.com/4/9467479", "https://otieu.com/4/9467428",
+      "https://otieu.com/4/9464449", "https://otieu.com/4/9467403", "https://otieu.com/4/9467434"
     ];
 
     for (let i = 0; i < 12; i++) {
@@ -148,7 +148,7 @@
     
 serviceButton.onclick = () => {
   if (balance >= 120) {
-    window.location.href = "https://t.me/yourTelegramChannel";
+    window.location.href = "https://t.me/JemiAkterJui6";
   } else {
     message.textContent = "সার্ভিস নেওয়ার জন্য আপনার একাউন্টে পর্যাপ্ত টাকা নেই। ১২০ টাকার প্রয়োজন।";
     const popup = document.getElementById("popup-warning");
